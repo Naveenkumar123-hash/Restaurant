@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">  
+    <link rel="stylesheet"href="menu.css">
+</head>
+<body>
+<div id="main-container">
+    <div id="sidebar">
+        <div id="sidelogo">
+        <div>
+            <img src="./assets/images/—Pngtree—javanese character with blangkon holding_8999487 1.png" alt="sidelogo">
+        </div>
+        </div>
+        <div id="btn">
+        <div>
+        <button><h2>Your Restaurant Menu</h2></button>
+        </div>
+        <div>
+        <button style="color:rgb(255,36,36)">Your Slogan</button>
+        </div>
+        </div>
+        <div id="links">
+            <p id="quick">Quick Links</p>
+            <ol id="list">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Your Orders</a></li>
+                <li><a href="#">Wallet</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Logout</a></li>
+            </ol>
+        </div>
+        <div id="about">
+            <p>More About Us</p>
+            <ol id="list2">
+                <li>Our blog</li>
+                <li>Upcoming Dishes</li>
+                <li>Our Story</li>
+                <li>Social Media Links</li>
+            </ol>
+        </div>
+    </div>
+    <div id="container">
+        <div id="navbar">
+            <button id="searchbar">
+            <img src="./assets/images/find.png "width="20px">
+            <input type="text">
+            </button>
+            <button id="signup">Signup</button>
+            <button id="login">Login</button>
+            <img src="./assets/images/—Pngtree—javanese character with blangkon holding_8999487 2.png "height="40px">
+        </div>
+        <div id="cart" class="cart">
+                
+        </div>
+        <div class="abc">
+            <h1><a class="menutag" href="/menu.html">Menu</a></h1>
+            <span><button onclick="placeOrder()">Place Order</button></span>
+        </div>
+        <div class="model-container">
+            <div class="model">
+                <i class='bx bxs-heart'></i>
+                <h3>Order status</h3>
+                <p id="status"></p>
+                <button id="pay-button" onclick="payment()"></button>
+                <button id="cancel" onclick="closePopup()">cancel</button>
+                <i class='bx bx-x' onclick="closePopup()"></i>
+            </div>
+    
+        </div>
+        <div class="menu">
+           
+              
+            
+        </div>
+    </div>
+</div>
+    <script src="menu.js"></script>
+</body>
+</html>

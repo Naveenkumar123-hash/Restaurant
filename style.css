@@ -1,0 +1,116 @@
+*{margin:0px;
+  padding:0px;
+  background-color: rgb(17,19,21);
+  font-family: 'Poppins', sans-serif;
+  }
+
+#sidebar{
+    display: flex;
+    flex-flow: column wrap;
+    width:20%;
+}
+#main-container{
+    display:flex;
+}
+#sidelogo{
+    display: flex;
+    justify-content: center;
+}
+#list li>a{text-decoration: none;
+           color:white;
+      }
+
+#list{
+    margin-right: 100px;
+}
+#list2{
+    margin-right: 51px;
+}
+#quick{text-align: center;}
+      
+#btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    margin-bottom:20px;
+}
+#btn button{color:white;
+            border: none;}
+#links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px;
+    padding:10px;
+    color: white;
+    row-gap: 10px;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px;
+    padding:10px;
+    color:white;
+    row-gap: 10px;
+}
+#navbar{
+    display:flex;
+    margin-top:10px;
+    column-gap: 22px;
+}
+#searchbar{
+    width:775px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    height:40px;
+    background-color: rgb(39,42,48);
+    border:none;
+}
+#searchbar input{border:none;
+                 background-color: rgb(39,42,48);
+                margin-left: 5px;}
+
+#searchbar img{transform: translateY(3px);}
+#signup,#login{
+    width:150px;
+    height:40px;
+    color:white;
+    background-color: rgb(255,36,36);
+}
+#menu{
+    color:white;
+    margin:20px 0px;
+}
+#card-image img{
+    width:100%;
+    height:220px;
+}
+#main{
+    display: grid;
+    grid-template-columns:repeat(3,30%);
+    column-gap: 41px;
+    row-gap: 35px;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(25,29,32);
+}
+#card p,#card img{background-color: rgb(25,29,32);}
+
+#card img{border-radius: 5px;}
+
+span{
+    float:right;
+}
+
+#card p{padding:1}
+
+#logo{margin:20px 0px}
